@@ -1,0 +1,50 @@
+startshape DRAWING
+
+shape DRAWING
+{
+	A [ sat 1 hue 160
+		x 3 y -55
+		r 0 b 0.5 s 10
+	]
+  B [ sat 1 hue 330
+    x 3 y -55
+    r 0 b 0.5 s 10
+  ]
+  C [ sat 1 hue 250
+    x 3 y -55
+    r 0 b 0.5 s 10
+  ]
+}
+
+shape A
+rule 0.5 {
+  CIRCLE [ x -0.5 y 0.0 s 0.8 ]
+  CIRCLE [ x 0.45 y 0.6 s 0.4 ]
+  CIRCLE [ x 0.35 y 1.8 s 0.2 ]
+  CIRCLE [ x -0.3 y 2.4 s 0.1 ]
+}
+rule 0.5 {
+  SQUARE [ x -0.5 y 0.0 s 0.8 ]
+  SQUARE [ x 0.45 y 0.6 s 0.4 ]
+  SQUARE [ x 0.35 y 1.8 s 0.2 ]
+  SQUARE [ x -0.3 y 2.4 s 0.1 ]
+}
+
+
+shape B
+{
+	SQUARE [ x -1.5 y 0.0 s 0.6 ]
+	SQUARE [ x -1.4 y 1.2 s 0.6 ]
+	SQUARE [ x -1.3 y 2.4 s 0.6 ]
+}
+
+shape C
+{
+  TRIANGLE [ x -0.5 y 0.8 s 0.8]
+  TRIANGLE [ x -0.5 y 1.0 s 0.8]
+  TRIANGLE [ x -0.5 y 1.2 s 0.8]
+  TRIANGLE [ x -0.5 y 1.4 s 0.8]
+  TRIANGLE [ x -0.5 y 1.6 s 0.8]
+  TRIANGLE [ x -0.5 y 1.8 s 0.8]
+}
+
